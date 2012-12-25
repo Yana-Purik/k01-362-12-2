@@ -29,7 +29,7 @@ break
 ;;
 
 *)
-echo Ошибка!!! хотите продолжить?'(y\n)'
+echo "Ошибка!!! хотите продолжить?(y\n)"
 read cont
 if [ $cont != y ]
 then exit
